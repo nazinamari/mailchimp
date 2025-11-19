@@ -1,0 +1,68 @@
+.mc_container {
+  max-width: 600px;
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+.mc_container h2 {
+  margin-bottom: 0.5rem;
+}
+
+.required {
+  color: red;
+}
+
+.mc_container label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.mc_input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.mc_input:focus {
+  border-color: #0073aa;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 115, 170, 0.4);
+}
+
+.mc_button {
+  padding: 0.75rem 1.5rem;
+  background: #0073aa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.mc_button:hover {
+  background: #005f8c;
+}
+
+.mc_hidden_field {
+  position: absolute;
+  left: -9999px;
+}
+
+.mc_badge {
+  margin-top: 1rem;
+}
+
+.mc_badge img {
+  width: 220px;
+  height: 40px;
+}
